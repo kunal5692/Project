@@ -1,0 +1,166 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fafad2"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ff4500"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Drishti"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="normal"
+        />
+        </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="#fafad2"
+       android:weightSum="100"
+       android:layout_marginTop="25dp"
+       android:layout_marginLeft="5dp"
+       android:layout_marginRight="5dp"
+
+       >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="RSS value(AP1)"
+    android:layout_weight="75"
+    android:textColor="#000000"
+    android:layout_gravity="center"
+    android:textSize="13sp"
+    android:fontFamily="sans-serif-condensed"
+    android:textStyle="bold"
+    />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    android:layout_gravity="center_horizontal"
+    android:gravity="top"
+    android:background="#ffffff"
+    android:textColor="#000000"
+    android:id="@+id/editId1"
+    android:hint="type here"
+    android:layout_weight="35"
+    android:layout_marginTop="10dp"
+    />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fafad2"
+        android:weightSum="100"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RSS value(AP2)"
+            android:layout_weight="75"
+            android:textColor="#080a08"
+            android:textSize="13sp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="top"
+            android:background="#ffffff"
+            android:textColor="#080a08"
+            android:id="@+id/editId2"
+            android:hint="type here"
+            android:layout_weight="35"
+            android:layout_marginTop="10dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fafad2"
+        android:weightSum="100"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RSS Value(AP3)"
+            android:layout_weight="75"
+            android:textColor="#080a08"
+            android:textSize="13sp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="top"
+            android:background="#ffffff"
+            android:textColor="#080a08"
+            android:id="@+id/editId3"
+            android:hint="type here"
+            android:layout_weight="35"
+            android:layout_marginTop="10dp"
+            />
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:background="#228b22"
+        android:textColor="#080a08"
+        android:layout_marginTop="20dp"
+        android:id="@+id/buttonId"
+        android:text="@string/send"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="top"
+            android:background="#bc8f8f"
+            android:textColor="#080a08"
+            android:id="@+id/textId"
+            android:layout_marginTop="20dp"
+            android:hint="server response"
+            android:maxLines="400"
+            android:scrollbars="vertical"
+            android:clickable="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"
+
+            />
+
+</LinearLayout>
